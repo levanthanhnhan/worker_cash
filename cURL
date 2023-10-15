@@ -1,0 +1,17 @@
+fetch("https://worker.cash/captcha/control/check.php", {
+  "headers": {
+    "accept": "application/json, text/javascript, */*; q=0.01",
+    "accept-language": "en-US,en;q=0.9,vi;q=0.8",
+    "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "sec-ch-ua": "\"Chromium\";v=\"118\", \"Google Chrome\";v=\"118\", \"Not=A?Brand\";v=\"99\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://chipmunk-algae-zbbz.squarespace.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "coor%5B0%5D%5Bx%5D=114&coor%5B0%5D%5By%5D=29&coor%5B1%5D%5Bx%5D=230&coor%5B1%5D%5By%5D=38&coor%5B2%5D%5Bx%5D=232&coor%5B2%5D%5By%5D=122&s_id=5bag7v134ukctm09ehir8u4peg",
+  "method": "POST"
+});

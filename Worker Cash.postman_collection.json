@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "bf367025-238d-47f8-a84f-7aac2f0c9845",
+		"name": "Worker Cash",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2544253"
+	},
+	"item": [
+		{
+			"name": "https://worker.cash/captcha/control/check.php",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "coor[0][x]",
+							"value": "114",
+							"type": "text"
+						},
+						{
+							"key": "coor[0][y]",
+							"value": "29",
+							"type": "text"
+						},
+						{
+							"key": "coor[1][x]",
+							"value": "230",
+							"type": "text"
+						},
+						{
+							"key": "coor[1][y]",
+							"value": "38",
+							"type": "text"
+						},
+						{
+							"key": "coor[2][x]",
+							"value": "232",
+							"type": "text"
+						},
+						{
+							"key": "coor[2][y]",
+							"value": "122",
+							"type": "text"
+						},
+						{
+							"key": "s_id",
+							"value": "5bag7v134ukctm09ehir8u4peg",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://worker.cash/captcha/control/check.php",
+					"protocol": "https",
+					"host": [
+						"worker",
+						"cash"
+					],
+					"path": [
+						"captcha",
+						"control",
+						"check.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
